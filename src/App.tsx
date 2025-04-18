@@ -12,7 +12,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div>
         
-          <h1>Mingfu Huang, CS5610.20596.202510</h1>
+          <h1>Chang Liu, CS5610.20596.202510</h1>
           
           <body>
               <div >
