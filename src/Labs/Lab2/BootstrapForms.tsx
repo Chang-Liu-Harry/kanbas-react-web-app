@@ -167,7 +167,7 @@ export function BootstrapForms() {
         </h2>
         <div className="card"
           style={{ width: "18rem" }}>
-          <img src="https://github.com/huangm9777/kanbas-react-web-app/blob/b65776272ab25eb0adcf7dc462443e2575c2c85f/public/logo192.png?raw=true"
+          <img src="https://github.com/Chang-Liu-Harry/kanbas-react-web-app/blob/b65776272ab25eb0adcf7dc462443e2575c2c85f/public/logo192.png?raw=true"
             alt="ReactJS logo" className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">
