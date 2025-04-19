@@ -1,0 +1,95 @@
+#wd-assignments {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#wd-search-assignments {
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#wd-add-assignment-group,
+#wd-add-assignment {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#wd-add-assignment-group:hover,
+#wd-add-assignment:hover {
+    background-color: #0056b3;
+}
+
+#wd-assignments-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#wd-assignments-title button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#wd-assignments-title button:hover {
+    background-color: #218838;
+}
+
+#wd-assignment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.wd-assignment-list-item {
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.wd-assignment-list-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.wd-assignment-link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.wd-assignment-link:hover {
+    color: #0056b3;
+}
+
+.wd-assignment-list-item div {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
