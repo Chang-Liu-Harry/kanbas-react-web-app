@@ -1,7 +1,7 @@
 // src/Kanbas/Enrollments/client.ts
 import axios from "axios";
 
-const API_BASE = process.env.REACT_APP_REMOTE_SERVER || "http://localhost:4000/api";
+const API_BASE = (process.env.REACT_APP_REMOTE_SERVER || "http://localhost:4000") + "/api" ;
 
 export const enrollUserInCourse = async (userId: string, courseId: string) => {
   const response = await axios.post(`${API_BASE}/enrollments`, {
